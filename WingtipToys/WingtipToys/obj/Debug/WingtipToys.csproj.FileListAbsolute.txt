@@ -48,3 +48,4 @@ C:\Users\yevhenii.koliesnik\Desktop\ToyShop\WingtipToys\WingtipToys\bin\Microsof
 C:\Users\yevhenii.koliesnik\Desktop\ToyShop\WingtipToys\WingtipToys\bin\Microsoft.Owin.Security.OAuth.xml
 C:\Users\yevhenii.koliesnik\Desktop\ToyShop\WingtipToys\WingtipToys\obj\Debug\WingtipToys.dll
 C:\Users\yevhenii.koliesnik\Desktop\ToyShop\WingtipToys\WingtipToys\obj\Debug\WingtipToys.pdb
+C:\Users\yevhenii.koliesnik\Desktop\ToyShop\WingtipToys\WingtipToys\obj\Debug\WingtipToys.csprojResolveAssemblyReference.cache

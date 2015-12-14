@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Linq;
+using WingtipToys.Logic;
 using WingtipToys.Models;
 using System.Web;
 using System.Web.Security;
@@ -80,6 +81,15 @@ namespace WingtipToys
         {
             Context.GetOwinContext().Authentication.SignOut();
         }
+        protected void Page_PreRender(object sender, EventArgs e)
+        {
+            using (ShoppingCartAction usersShoppingCart = new ShoppingCartAction())
+            {
+                string cartStr = string.Format("Cart ({0})", usersShoppingCart.GetCount());
+                cartCount.InnerText = cartStr;
+            }
+        }
+
     }
 
 }
